@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #282a35;
+  height: 100vh;
+}
+.right-container {
+  height: 100vh;
+  text-align: initial;
+  flex-direction: column;
+  display: flex;
+}
+
+.image {
+  background-image: url("./helupic.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 243px;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  color: white;
+  padding: 20px;
+}
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  text-align: left;
+}
+.detail {
+  text-align: initial;
+}
+.img {
+  background-image: url(phone.jpg);
+  width: 20%;
+}
+.header {
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: left;
+}
+.exp {
+  text-transform: uppercase;
+  margin-bottom: 1ch;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.sub-heading {
+  font-weight: bold;
+  font-size: large;
+  text-align: left;
+  margin-bottom: 20px;
+  text-align: flex;
+}
+.tit {
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.campany {
+  text-size-adjust: 1px;
+  margin-left: 10px;
+  text-align: left;
+}
+.discrption {
+  text-align: inherit;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.skill {
+  font-size: large;
+  font-weight: bold;
+}
+.phonenumber {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.email {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
